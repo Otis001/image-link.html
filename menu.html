@@ -12,6 +12,7 @@
     }
     body{
         height: 100vh;
+        background-color: rgb(131, 131, 248);
     }
    
     .navcontent{
@@ -22,7 +23,6 @@
     }
     .navcontent ul{
         list-style-type: none;
-        background-color: rgb(126, 124, 124);
         padding: 0;
         margin: 0;
         display: flex;
@@ -46,7 +46,32 @@
     ul li a:hover{
         color: rgb(140, 189, 227);
     }
-   
+    h2{
+        margin-top: 5rem;
+    }
+    .menu{
+        display: flex;
+        gap: 10px;
+    }
+    .rows{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center
+    }
+    .images img{
+        padding-bottom: 6px;
+        border-radius: 12px;
+        padding-left:50px ;
+        cursor: pointer;
+        display: block;
+        justify-content: space-between;
+    }
+   .list {
+    margin-left: 30px;
+
+
+   }
 </style>
 <body>
     <div class="navcontent">
@@ -56,5 +81,36 @@
           <li><a href="menu.html">MENU</a></li>
         </ul>
      </div>
+     <h2>FOOD ITEMS</h2>
+     <div class="menu">
+       <div class="rows">
+          <div class="images">
+              <a href="https://images.unsplash.com/photo-1705174299330-939dd03cc864?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIxNHx4alBSNGhsa0JHQXx8ZW58MHx8fHx8" target="_blank">
+                <img src="imagesfolder/14.jpg" height="400px" width="300px">
+              </a>
+              <div class="list">
+                <p>1.A SWAHILI FRIED RICE </p>
+            </div>
+           </div>
+           <div class="images">
+            <a href="https://images.unsplash.com/photo-1705917678134-10c51f7cdb24?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIxMnx4alBSNGhsa0JHQXx8ZW58MHx8fHx8" target="_blank">
+              <img src="imagesfolder/13.jpg" height="400px" width="300px" >
+            </a>
+            <div class="list">
+                <p>2.DOUGHNUTS </p>
+            </div>
+          </div>
+          <div class="images">
+            <a href="https://unsplash.com/photos/a-woman-holding-a-plate-of-fruit-and-pastry-E5xbv1ZRahI " target="_blank">
+              <img src="imagesfolder/12.jpg" height="400px" width="300px">
+            </a>
+            <div class="list">
+                <p>3.PANCAKES AND FRUITS </p>
+            </div>
+          </div>
+        </div>
+        
+          
+    </div>
 </body>
 </html>
